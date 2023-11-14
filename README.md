@@ -34,11 +34,13 @@ A random split was used to generate distinct training and test sets (training: 8
 <img src="./notebooks/figures/negative_word_cloud.png" 
      align="centre" 
      width="500" />
+
 *Figure 1. Word clouds generated for negative comments using LDA with two topics. A) A word cloud of the top 100 terms (including both unigrams and trigrams). B) A word cloud of the trigrams present in the top 100 terms (i.e. unigrams have been filtered out).*
 
 <img src="./notebooks/figures/positive_word_cloud.png" 
      align="centre" 
      width="500" />
+
 *Figure 2. Word clouds generated for positive comments using LDA with two topics. A) A word cloud of the top 100 terms (including both unigrams and trigrams). B) A word cloud of the trigrams present in the top 100 terms (i.e. unigrams have been filtered out).*
 
 The topics detected in this study roughly align with themes in the NSS (negative comments: assessment & feedback, teaching on my course, organisation and management; positive comments: academic support, learning community and learning opportunities). Future work should involve hyperparameter optimization using alternative evaluation metrics to perplexity (e.g. word intrusion4) and variants of LDA that are designed with short text in mind (e.g. Gibbs Sampling for Dirichlet Multinomial Mixture5). These approaches may produce more easily interpreted topic models.
