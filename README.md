@@ -15,12 +15,14 @@ LDA was chosen for three reasons. Firstly, documents can be associated with more
 ## File structure
 
 <pre>
-|- notebooks/
-   |- LDA_topic_modelling_with_PySpark.ipynb
-   |- figures/
 |- feedback-topic-modelling/
    |- custom_funcs.py
    |- config.py
+|- notebooks/
+   |- LDA_topic_modelling_with_PySpark.ipynb
+   |- figures/
+|- .gitignore
+|- LICENSE
 |- README.md
 </pre>
 
